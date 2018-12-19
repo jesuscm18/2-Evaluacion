@@ -14,7 +14,7 @@ main(){
                 cout<<"\nDime un numero: ";
                 cin>>num[i];
        }
-       //Ahora voy a enseñar mis numeros
+       //Ahora voy a enseÃ±ar mis numeros
        cout<<"\nLISTA DE LOS NUMEROS: \n";
        for(i=0;i<n_numeros;i++){
                           cout<<num[i];
