@@ -3,7 +3,7 @@
 #include<ctime>         //permite sacar la hora del ordenador
 using namespace std;
 int main(){
-           char matriz[10][10];  //aquí guardamos los numeros
+           char matriz[10][10];  //aquÃ­ guardamos los numeros
            int fil, col;
            double semillita;
            char salir;
