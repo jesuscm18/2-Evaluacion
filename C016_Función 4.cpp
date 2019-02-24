@@ -33,7 +33,6 @@ int main(){
     for(i=num-1;i<=num-1;i++){
       for(j=0;mes_ano[i][j]!='\0';j++){
         cout<<"Es: "<<mes_ano[i][j];
-        cin>>rep;
       }
       cout<<"\n";
     }
