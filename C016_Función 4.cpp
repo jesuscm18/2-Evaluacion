@@ -3,16 +3,16 @@
 using namespace std;
 
 int main(){
-    int num1;
+    int num;
     int i,j;
     char mes_ano[12][10];
     char mes[10];
-    int respuesta;
+    char rep;
     char salir;
     
     
-    cout<<"\nVamos a introducir los meses del año: ";
-    for(i=0;i<=12;i++){
+    cout<<"\nVamos a introducir los meses del aC1o: ";
+    for(i=0;i<=11;i++){
           cout<<"\nMes "<<i+1<<": ";
           cin>>mes;     
           for(j=0;j<strlen(mes)+1;j++){
@@ -21,13 +21,22 @@ int main(){
     }
     //Mostramos la matriz
     cout<<"\n";
-    for(i=0;i<=12;i++){
+    for(i=0;i<=11;i++){
       for(j=0;mes_ano[i][j]!='\0';j++){
         cout<<mes_ano[i][j];
       }
       cout<<"\n";
     }
+    cout<<"Que mes del anoo quieres saber? ";
+    cin>>num;
     
+    for(i=num-1;i<=num-1;i++){
+      for(j=0;mes_ano[i][j]!='\0';j++){
+        cout<<"Es: "<<mes_ano[i][j];
+        cin>>rep;
+      }
+      cout<<"\n";
+    }
     cout<<"\nIntroduce una letra y pulse intro para salir: ";
     cin>> salir;
     return 0;
