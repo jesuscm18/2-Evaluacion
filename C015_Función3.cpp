@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    int num1;
+    int num;
     int i,j;
     char dias_semana[7][10];
     char nombre_dia[10];
@@ -25,7 +25,15 @@ int main(){
       }
       cout<<"\n";
     }
+       cout<<"Que dia de la semana quieres saber? ";
+    cin>>num;
     
+    for(i=num-1;i<=num-1;i++){
+      for(j=0;dias_semana[i][j]!='\0';j++){
+        cout<<"Es: "<<dias_semana[i][j];
+      }
+      cout<<"\n";
+    } 
     
     //cout<<semana( num1);
     cin>> salir;
